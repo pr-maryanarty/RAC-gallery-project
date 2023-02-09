@@ -31,3 +31,9 @@ button:hover {
   background-color: blueviolet;
   color: white;
 }
+#project1 {
+  display: none;
+}
+#project1.open {
+  height: 300px;
+}
