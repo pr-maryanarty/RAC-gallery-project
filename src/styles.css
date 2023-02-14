@@ -1,11 +1,25 @@
 * {
   box-sizing: border-box;
 }
+
+h1 {
+  color: blueviolet;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+}
+h2 {
+  color: rgb(238, 15, 171);
+  font-size: 2rem;
+  text-align: center;
+}
 .wrapper img {
+  border-radius: 1rem;
   width: 100%;
   max-width: 400px;
   height: 300px;
   object-fit: cover;
+  box-shadow: 10px 5px 5px rgb(151, 141, 141);
 }
 .wrapper {
   display: flex;
@@ -18,14 +32,16 @@
   margin: 0 auto;
   gap: 3rem;
   border-radius: 1rem;
+  background-color: rgb(235, 212, 228);
 }
 button {
   display: block;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(227, 200, 250);
   height: 3rem;
   width: 5rem;
   border-radius: 1rem;
   border: none;
+  cursor: pointer;
 }
 button:hover {
   background-color: blueviolet;
@@ -37,14 +53,13 @@ button:hover {
 #project1.open {
   display: flex;
 
-  /* padding-bottom: 400px; */
-
   margin: 0 auto;
   gap: 3rem;
   border-radius: 1rem;
 }
 .project1 {
-  max-width: 200px;
+  max-width: 400px;
+  padding-top: 1rem;
 }
 #project2 {
   display: none;
@@ -52,14 +67,13 @@ button:hover {
 #project2.open {
   display: flex;
 
-  /* padding-bottom: 400px; */
-
   margin: 0 auto;
   gap: 3rem;
   border-radius: 1rem;
 }
 .project2 {
-  max-width: 200px;
+  max-width: 400px;
+  padding-top: 1rem;
 }
 #project3 {
   display: none;
@@ -67,14 +81,13 @@ button:hover {
 #project3.open {
   display: flex;
 
-  /* padding-bottom: 400px; */
-
   margin: 0 auto;
   gap: 3rem;
   border-radius: 1rem;
 }
 .project3 {
-  max-width: 200px;
+  max-width: 400px;
+  padding-top: 1rem;
 }
 #project4 {
   display: none;
@@ -82,14 +95,13 @@ button:hover {
 #project4.open {
   display: flex;
 
-  /* padding-bottom: 400px; */
-
   margin: 0 auto;
   gap: 3rem;
   border-radius: 1rem;
 }
 .project4 {
-  max-width: 200px;
+  max-width: 400px;
+  padding-top: 1rem;
 }
 #project5 {
   display: none;
@@ -97,14 +109,13 @@ button:hover {
 #project5.open {
   display: flex;
 
-  /* padding-bottom: 400px; */
-
   margin: 0 auto;
   gap: 3rem;
   border-radius: 1rem;
 }
 .project5 {
-  max-width: 200px;
+  max-width: 400px;
+  padding-top: 1rem;
 }
 #project6 {
   display: none;
@@ -112,14 +123,13 @@ button:hover {
 #project6.open {
   display: flex;
 
-  /* padding-bottom: 400px; */
-
   margin: 0 auto;
   gap: 3rem;
   border-radius: 1rem;
 }
 .project6 {
-  max-width: 200px;
+  max-width: 400px;
+  padding-top: 1rem;
 }
 #project7 {
   display: none;
@@ -127,12 +137,11 @@ button:hover {
 #project7.open {
   display: flex;
 
-  /* padding-bottom: 400px; */
-
   margin: 0 auto;
   gap: 3rem;
   border-radius: 1rem;
 }
 .project7 {
-  max-width: 200px;
+  max-width: 400px;
+  padding-top: 1rem;
 }
