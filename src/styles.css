@@ -49,16 +49,18 @@ button:hover {
   background-color: blueviolet;
   color: white;
 }
-#project1 {
+.readmore {
   display: none;
 }
-#project1.open {
+.readmore.open {
   display: flex;
   background-color: rgb(207, 177, 236);
   margin: 0 auto;
   gap: 3rem;
+  max-width: 400px;
+  padding-top: 1rem;
 }
-.project1 {
+/* .project1 {
   max-width: 400px;
   padding-top: 1rem;
 }
@@ -145,4 +147,4 @@ button:hover {
 .project7 {
   max-width: 400px;
   padding-top: 1rem;
-}
+} */
