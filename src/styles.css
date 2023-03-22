@@ -1,150 +1,70 @@
 * {
-  box-sizing: border-box;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 h1 {
-  color: rgb(95, 54, 133);
-  font-size: 3rem;
-  text-align: center;
-  font-weight: bold;
+    color: rgb(95, 54, 133);
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
 }
 h2 {
-  color: rgb(145, 58, 119);
-  font-size: 2rem;
-  text-align: center;
+    color: rgb(145, 58, 119);
+    font-size: 2rem;
+    text-align: center;
 }
 .wrapper img {
-  border-radius: 1rem;
-  width: 100%;
-  max-width: 400px;
-  height: 300px;
-  object-fit: cover;
-  box-shadow: 10px 5px 5px rgb(151, 141, 141);
+    border-radius: 1rem;
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 10px 5px 5px rgb(151, 141, 141);
 }
 .wrapper {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: start;
-  padding: 20px, 10px;
-  max-width: 1400px;
-  margin: 0 auto;
-  gap: 3rem;
-  border-radius: 1rem;
-  background-color: rgb(235, 212, 228);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    padding: 20px, 10px;
+    max-width: 1400px;
+    margin: 0 auto;
+    gap: 3rem;
+    border-radius: 1rem;
+    background-color: rgb(235, 212, 228);
 }
 button {
-  display: block;
-  background-color: rgb(227, 200, 250);
-  height: 3rem;
-  width: 5rem;
-  border-radius: 1rem;
-  border: none;
-  cursor: pointer;
+    display: block;
+    background-color: rgb(227, 200, 250);
+    height: 3rem;
+    width: 5rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
 }
 button:hover {
-  background-color: blueviolet;
-  color: white;
+    background-color: blueviolet;
+    color: white;
 }
 .readmore {
-  display: none;
+    display: none;
 }
 .readmore.open {
-  display: flex;
-  background-color: rgb(207, 177, 236);
-  margin: 0 auto;
-  gap: 3rem;
-  max-width: 400px;
-  padding-top: 1rem;
+    display: flex;
+    background-color: rgb(207, 177, 236);
+    margin: 0 auto;
+    gap: 3rem;
+    max-width: 400px;
+    padding-top: 1rem;
 }
-/* .project1 {
-  max-width: 400px;
-  padding-top: 1rem;
+footer {
+    background-color: black;
+    color: rgb(235, 212, 228);
+    text-align: center;
+    font-size: medium;
+    height: 4rem;
+    border-radius: 1rem;
 }
-#project2 {
-  display: none;
-}
-#project2.open {
-  display: flex;
-
-  margin: 0 auto;
-  gap: 3rem;
-  border-radius: 1rem;
-}
-.project2 {
-  max-width: 400px;
-  padding-top: 1rem;
-}
-#project3 {
-  display: none;
-}
-#project3.open {
-  display: flex;
-
-  margin: 0 auto;
-  gap: 3rem;
-  border-radius: 1rem;
-}
-.project3 {
-  max-width: 400px;
-  padding-top: 1rem;
-}
-#project4 {
-  display: none;
-}
-#project4.open {
-  display: flex;
-
-  margin: 0 auto;
-  gap: 3rem;
-  border-radius: 1rem;
-}
-.project4 {
-  max-width: 400px;
-  padding-top: 1rem;
-}
-#project5 {
-  display: none;
-}
-#project5.open {
-  display: flex;
-
-  margin: 0 auto;
-  gap: 3rem;
-  border-radius: 1rem;
-}
-.project5 {
-  max-width: 400px;
-  padding-top: 1rem;
-}
-#project6 {
-  display: none;
-}
-#project6.open {
-  display: flex;
-
-  margin: 0 auto;
-  gap: 3rem;
-  border-radius: 1rem;
-}
-.project6 {
-  max-width: 400px;
-  padding-top: 1rem;
-}
-#project7 {
-  display: none;
-}
-#project7.open {
-  display: flex;
-
-  margin: 0 auto;
-  gap: 3rem;
-  border-radius: 1rem;
-}
-.project7 {
-  max-width: 400px;
-  padding-top: 1rem;
-} */
